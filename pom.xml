@@ -14,8 +14,6 @@
         <version>1.5.2.RELEASE</version>
     </parent>
 
-    <packaging>war</packaging>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -46,18 +44,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>spring-releases</id>
-            <url>https://repo.spring.io/libs-release</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-releases</id>
-            <url>https://repo.spring.io/libs-release</url>
-        </pluginRepository>
-    </pluginRepositories>
     
 </project>
